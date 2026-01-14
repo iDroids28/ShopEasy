@@ -1,0 +1,29 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">ShopEasy</string>
+
+    <!-- Button labels -->
+    <string name="shop_now">Shop Now</string>
+    <string name="become_seller">Become a Seller</string>
+
+    <!-- Categories -->
+    <string name="category_vegetable">Vegetable</string>
+    <string name="category_chicken">Chicken &amp; Poultry</string>
+    <string name="category_rice">Rice</string>
+
+    <!-- Bestseller items -->
+    <string name="item_burger">Delicious Burger</string>
+    <string name="item_burger_info">₱150 • Dagupan City, Pangasinan</string>
+
+    <string name="item_pizza">Tasty Pizza</string>
+    <string name="item_pizza_info">₱280 • Mangaldan, Pangasinan</string>
+
+    <string name="item_sushi">Sushi Platter</string>
+    <string name="item_sushi_info">₱450 • Calasiao, Pangasinan</string>
+
+    <string name="item_icecream">Ice Cream Delight</string>
+    <string name="item_icecream_info">₱120 • Binmaley, Pangasinan</string>
+
+    <!-- Bestseller title -->
+    <string name="bestsellers">Bestsellers</string>
+</resources>

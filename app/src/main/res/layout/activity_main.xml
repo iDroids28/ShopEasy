@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShopEasy"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_marginTop="150dp"/>
+
+    <!-- FrameLayout to layer email over image -->
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp">
+
+        <!-- Background image -->
+
+        <!-- Email input layered on top -->
+
+        <ImageView
+            android:id="@+id/imageViewBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_3" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="100dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter your email address"
+            android:textColorHint="#888888"
+            android:inputType="textEmailAddress" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp">
+
+        <!-- Background image (was imageView2) -->
+
+        <!-- Password input layered on top -->
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="110dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="#888888" />
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/forgotPasswordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="5dp"
+        android:text="Forgot Password?"
+        android:textColor="#888888"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you don’t have an account, please "
+        android:textSize="14sp"
+        android:textColor="#888888"/>
+
+    <TextView
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Sign Up"
+        android:textColor="#4CAF50"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/loginbtn"
+        android:layout_width="342dp"
+        android:layout_height="73dp"
+        android:clickable="true"
+        android:contentDescription="Clickable Image"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:padding="10dp"
+        android:src="@drawable/img_1" />
+
+
+
+</LinearLayout>
+
+
+
